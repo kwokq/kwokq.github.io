@@ -1,0 +1,76 @@
+header h1 {
+  background-color: rgb(253,255,13);
+  font-size: 37px;
+  text-align: right;
+  margin: 0px;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  background-color: rgb(0,0,0);
+  font-size: 22px;
+  display: inline;
+  padding: 7px 30px;
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+}
+
+nav ul {
+  background-color: rgb(15,111,0);
+  margin:0px;
+  text-align:center;
+  overflow: hidden;
+  padding:5px 20px;
+  list-style-type: none;
+}
+
+#content {
+  background-color: rgb(66,68,56);
+}
+
+#content h1 {
+  margin: 0px;
+  font-size: 37px;
+}
+
+#content p {
+  margin: 0px;
+  width: 630px;
+  font-size: 18px;
+}
+
+#content ul {
+  margin: 0px;
+  width: 600px;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+aside {
+  background-color: white;
+  float: right;
+}
+
+aside h2 {
+  text-align: right;
+  margin: 0px;
+  font-size: 28px;
+}
+
+aside ul{
+  margin: 0px;
+  padding-bottom: 400px;
+  font-size: 19px;
+}
+
+footer {
+  background-color: rgb(15,111,0);
+  padding: 5px;
+}
