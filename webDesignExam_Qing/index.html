@@ -3,33 +3,36 @@
 	<head>
   		<meta charset="UTF-8">
   		<title>Qing Guo</title>
+
   		<link rel="stylesheet" type="text/css" href="css/style.css">
+
   		<script src="js/jquery.js"></script>
   		<script>
   			$(document).ready(function(){
-    			$('#button1').on('click', function(){
-    				$('#photo1').css("display", "none");
-    				$('#photo2').css("margin-left", "28%")
+    			$('#hide').on('click', function(){
+    				$('#people').css("display", "none");
+    				$('#logo').css("margin-left", "28%")
     			});
-    			$('#button2').on('click', function(){
-    				$('#photo1').css("display", "inline-block");
-    				$('#photo2').css("margin", "0");
+    			$('#show').on('click', function(){
+    				$('#people').css("display", "inline-block");
+    				$('#logo').css("margin", "0");
     			});
     		});
   		</script>
   	</head>
+
   	<body>
-  		<p><h1>Qing Guo</h1></p>
+  		<h1>Qing Guo</h1>
   		<div>
-  			<div class="photo-cell" id="photo1">
-  				<img src="images/examPic.jpg" alt="examPic">
+  			<div class="photo" id="people">
+  				<img src="images/examPic.jpg" alt="people">
   			</div>
-  			<div class="photo-cell" id="photo2">
-  				<img src="images/UMSI-logo.jpg" alt="UMSI-logo">
+  			<div class="photo" id="logo">
+  				<img src="images/UMSI-logo.jpg" alt="logo">
   			</div>
   		</div>
-      <button id="button1">Hide Image</button>
-			<button id="button2">Show Image</button>
+      <button id="hide">Hide Image</button>
+			<button id="show">Show Image</button>
   	</body>
 
-	</html>
+</html>

@@ -3,14 +3,14 @@ body {
 }
 
 img{
-	width: 100%;
+	width: 90%;
 }
 
-.photo-cell{
+.photo{
 	box-sizing: border-box;
 	display: inline-block;
 	text-align: center;
-	border: 5px blue solid;
+	border: 5px solid blue;
 	padding: 5%;
 	width: 49.7%;
 }
