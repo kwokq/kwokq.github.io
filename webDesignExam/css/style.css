@@ -1,0 +1,16 @@
+body {
+	background-image: url("../images/background.png");
+}
+
+img{
+	width: 100%;
+}
+
+.photo-cell{
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	border: 5px blue solid;
+	padding: 5%;
+	width: 49.7%;
+}
